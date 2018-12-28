@@ -1,0 +1,30 @@
+{
+  "name": "orianna",
+  "version": "0.0.2",
+  "description": "Another DHT crawler written in Node.js",
+  "main": "lib/orianna.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overcat/orianna.git"
+  },
+  "keywords": [
+    "dht",
+    "crawler",
+    "bittorrent"
+  ],
+  "author": "overcat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overcat/orianna/issues"
+  },
+  "homepage": "https://github.com/overcat/orianna#readme",
+  "dependencies": {
+    "bencode": "^2.0.0"
+  }
+}
