@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "node"
+
+script: echo "npm test temporarily disabled"
+
+deploy:
+  provider: npm
+  email: 4catcode@gmail.com
+  api_key:
+    secure: LyNXfHnEz49GGbK1y6OfXq1wEjngNxk97qzfhsRRXes5ehYniqsldMPm628Z0dyEhq7VEw/d8+7D3hKF/E6rtH9ZyHjXdJsI+lH6zT4gG0mmtkkqDC+RqfEcgsgNdZ6/ZaXPRp2/gdvNJr8ZHb4jnLxn1DSw1qQ9LnWJVJvGGNWp4VfRxxwu0RoiaJMZ+Ofn8yX5FCEA0ivpOyE0IycMs2deXA4YPofwF6bvVdQe9wPfRAs/is2KHhFo5iQbQSU+9CUfVM9YCBQd3iv1OnpOrmYxDPMs8IiGn4YjyJ63oZRo66QeeAPyBPacjYXrAZnwGMzhom9iNbvex6nXtPwp7XOaRlKgHKlyFsboh3ibqX5DW0pXwjyHBUMhnbnLdL9F232TiUMVhfvJAi+6/14GZhLlBKkhw4fSqg0MgQpsveNXFWj0Kpo0geUwsEAiHHKhHa4Q1g6WcLwwR6gEWElNtaf7ZtAHpR6VY24Go9ZJNwFhG6BbxJ008D7sitKV3VPw0eMcimzSzfsWvyttKIPO8dJPMWoEePEE4Gtaz7DhQ8rsN95+IVFRLBzoDAuKcbFHiqRj3b/GASCq/sGFAaHRpqxNE4rmNVeh8ll83U476AWaF3Hjg73PcXoiI3rIhlPYaq/JArHPgR3W8CYDnXv4/RU5eJZVqHkuR3b0H1HX1ek=
+  on:
+    tags: true
+    repo: overcat/orianna
