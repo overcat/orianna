@@ -1,6 +1,6 @@
 {
   "name": "orianna",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Another DHT crawler written in Node.js",
   "main": "lib/orianna.js",
   "files": [

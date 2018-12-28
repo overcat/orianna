@@ -12,3 +12,7 @@ deploy:
   on:
     tags: true
     repo: overcat/orianna
+
+
+notifications:
+  email: false
