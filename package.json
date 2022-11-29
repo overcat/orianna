@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/overcat/orianna#readme",
   "dependencies": {
-    "bencode": "^2.0.0"
+    "bencode": "^3.0.0"
   }
 }
